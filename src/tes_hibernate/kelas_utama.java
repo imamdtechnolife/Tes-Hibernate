@@ -9,6 +9,8 @@ import org.hibernate.SessionFactory;
 public class kelas_utama {
 	public static void main(String[]args)
 	{
+		System.out.println("Proses sedang berlangsung . . .");
+		
 		siswa siswaObj = new siswa();
 		siswaObj.setNama_siswa("Selvia Andriani");
 		
@@ -28,6 +30,6 @@ public class kelas_utama {
 		session.close();
 		sessionFactory.close();
 		
-		
+		System.out.println("proses selesai :)");
 	}
 }
