@@ -47,5 +47,9 @@ public class tes {
 		this.nama_mahasiswa = nama_mahasiswa;
 	}
 	
+	public void pesanSingkat()
+	{
+		System.out.println("Alhamdulillah :)");
+	}
 	
 }

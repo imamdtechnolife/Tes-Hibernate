@@ -31,5 +31,10 @@ public class kelas_utama {
 		sessionFactory.close();
 		
 		System.out.println("proses selesai :)");
+		
+		tes obj = new tes();
+		obj.pesanSingkat();
+		
+		
 	}
 }
