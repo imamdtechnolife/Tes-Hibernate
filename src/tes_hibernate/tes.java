@@ -49,7 +49,7 @@ public class tes {
 	
 	public void pesanSingkat()
 	{
-		System.out.println("Alhamdulillah :)");
+		System.out.println("segala puji bagi allah:)");
 	}
 	
 }
